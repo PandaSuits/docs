@@ -62,3 +62,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.DOCS_BOT_FR }}
           REPO: ${{ github.repository }}
+@dependabot rebase
